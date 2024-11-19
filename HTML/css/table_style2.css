@@ -1,0 +1,7 @@
+table, tr, th,td{
+    border: 2px solid rgb(252, 137, 156);
+    border-collapse: collapse;
+}
+th{
+    background-image: linear-gradient(rgb(250, 250, 254), rgb(239, 198, 239));
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Biodata</h2>
+    <form>
+        <button type="button" onclick="btn_prompt()">PROMPT</button>
+        <button type="button" onclick="btn_alert()">ALERT</button>
+        <button type="button" onclick="btn_confirm()">CONFIRM</button>
+        <br>
+        <label for="nama" >Nama</label><br>
+        <input type="text" name="" id="nm"><br>
+        <label for="alamat" >Alamat</label><br>
+        <input type="text" name="" id="alm"><br>
+        <!-- <label for="nomor">Nomor</label><br>
+        <input type="tel" name="" id="nomor" pattern="[0]{1}[8]{1}[0-9]{3}"><br> -->
+        <button type="submit" onclick="test()">Submit</button>
+    </form>
+
+    <script>
+        function test(){
+            var a = document.getElementById("nm").value;
+            var b = document.getElementById("alm").value;
+            alert("Hallo " + a + ", " + b);
+        }
+        function btn_prompt(){
+            var p = prompt("(ini adalah prompt)\nHallo Nama kamu siapa?");
+            alert("Hallo " + p);
+        }
+        function btn_alert(){
+            alert("(ini adalah alert)\nHello There.!");
+        }
+        function btn_confirm(){
+            confirm("(ini adalah confirm)\nDo you want to continue?");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    /* background-size: cover; */
+    /* background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg'); */
+    /* background-image: linear-gradient(to bottom right, rgb(255, 0, 255), rgb(0, 170, 255)); */
+    background-image: linear-gradient(rgb(250, 250, 254), rgb(239, 198, 239));
+    background-attachment: fixed;
+}
+.kue{
+    float: left;
+    width: 25%;
+    height: 10%;
+}
+.satu{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dua{
+    font-style: italic;
+}
+.tiga{
+    font-family: cursive;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards with Image and Caption Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+     .uplift-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+    }
+
+    .uplift-hover:hover {
+        transform: translateY(-5px); /* Lift the button on hover */
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Bootstrap Cards</h1>
+        <!-- <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.-p5khAWMT3336YggOgldwgHaE7&pid=Api&P=0&h=180" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.-p5khAWMT3336YggOgldwgHaE7&pid=Api&P=0&h=180" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.-p5khAWMT3336YggOgldwgHaE7&pid=Api&P=0&h=180" class="card-img-top" alt="Card Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.youtube.com" target="_blank" class="btn btn-primary uplift-hover ">Go somewhere</a>
+            </div>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.-p5khAWMT3336YggOgldwgHaE7&pid=Api&P=0&h=180" class="card-img-bottom" alt="...">
+          </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
